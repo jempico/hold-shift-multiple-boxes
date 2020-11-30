@@ -1,0 +1,49 @@
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(35, 48, 78);
+    background: #ffc600;
+}
+
+.inbox {
+max-width: 400px;
+margin: 50px auto;
+background: white;
+border-radius: 5px;
+box-shadow: 10px 10px;
+}
+
+.item {
+display: flex;
+align-items: center;
+border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+p {
+    font-family:'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    border-left: 1px solid #F1F1F1;
+    flex: 1;
+}
+
+h1 {
+    text-align: center; 
+
+}
+
+input {
+    margin: auto 25px;
+}
+
+input:checked + p {
+    background: #F9F9F9;
+    text-decoration: line-through;
+}
+
